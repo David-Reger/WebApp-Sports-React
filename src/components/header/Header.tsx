@@ -15,7 +15,7 @@ const Navbar = () => {
             <a
               key={sport}
               href={`/${sport.toLowerCase()}`}
-              className="text-slate-400 hover:text-white transition-colors font-medium text-sm"
+              className="text-slate-300 hover:text-sky-400 transition-all font-medium text-sm duration-250 hover:scale-110 border-b-2 border-transparent hover:border-sky-400"
             >
               {sport}
             </a>
